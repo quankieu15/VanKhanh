@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tour Đà Nẵng</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .tour-box {
+            width: 600px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .detail {
+            margin-top: 15px;
+            background: #eee;
+            padding: 15px;
+            display: none; /* Ẩn ban đầu */
+        }
+
+        button {
+            margin-right: 10px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tour-box">
+        <h1>Tour Đà Nẵng 3 ngày 2 đêm</h1>
+
+        <p>Khám phá thành phố biển Đà Nẵng với nhiều điểm đến hấp dẫn.</p>
+
+        <button onclick="showDetail()">Xem chi tiết</button>
+        <button onclick="hideDetail()">Ẩn chi tiết</button>
+
+        <div id="tourDetail" class="detail">
+            <h3>Chi tiết tour</h3>
+            <p>Ngày 1: Tham quan cầu Rồng và biển Mỹ Khê.</p>
+            <p>Ngày 2: Khám phá Bà Nà Hills.</p>
+            <p>Ngày 3: Mua sắm đặc sản và kết thúc tour.</p>
+            <p><b>Giá tour: 3.500.000 VNĐ</b></p>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+
+</body>
+</html>

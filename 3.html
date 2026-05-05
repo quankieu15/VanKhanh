@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chọn tour yêu thích</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .container {
+            width: 900px;
+        }
+
+        .tour {
+            width: 250px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            background: white;
+        }
+
+        .active {
+            background: #f5f1c8; 
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 5px 10px;
+        }
+
+        #message {
+            margin-top: 20px;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Chọn tour yêu thích</h1>
+
+    <div class="container">
+        <div class="tour" id="dalat">
+            <h3>Tour Đà Lạt</h3>
+            <p>Thành phố ngàn hoa, khí hậu mát mẻ.</p>
+            <button onclick="selectTour('dalat', 'Tour Đà Lạt')">Chọn tour</button>
+        </div>
+
+        <div class="tour" id="phuquoc">
+            <h3>Tour Phú Quốc</h3>
+            <p>Nghỉ dưỡng biển đảo, phù hợp cho gia đình.</p>
+            <button onclick="selectTour('phuquoc', 'Tour Phú Quốc')">Chọn tour</button>
+        </div>
+
+        <div class="tour" id="hanoi">
+            <h3>Tour Hà Nội</h3>
+            <p>Tham quan thủ đô, phố cổ và các di tích lịch sử.</p>
+            <button onclick="selectTour('hanoi', 'Tour Hà Nội')">Chọn tour</button>
+        </div>
+    </div>
+
+    <p id="message">Bạn chưa chọn tour nào.</p>
+
+    <script src="script3.js"></script>
+
+</body>
+</html>

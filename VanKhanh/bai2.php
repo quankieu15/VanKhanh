@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Tour - Giới thiệu</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>WEBSITE DU LỊCH SỐ</h1>
+
+    <?php
+echo "<p>Chào mừng bạn đến với website du lịch số - nền tảng giúp bạn khám phá những điểm đến tuyệt vời.</p>";
+echo "<p>Hotline: 0123 456 789</p>";
+echo "<p>Email: dulichso@university.edu.vn</p>";
+?>
+
+</body>
+</html>
